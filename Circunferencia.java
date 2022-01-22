@@ -31,16 +31,12 @@ public class Circunferencia extends CircunferenciayRadio{
         System.out.println(resultadoVolumen);
     }
     
-    public void resultados(){
-        System.out.println("Ärea es igual a = ");
-        circo.getResultadoArea();
-        System.out.println("Diametro es igual a = ");
-        circo.getResultadoDiametro();
-        System.out.println("Circunferencia es igual a = ");
-        circo.getResultadoCircunferencia();
-        System.out.println("Volumen es igual a = ");
-        circo.getResultadoVolumen();
-}
+    public void operar(){
+        Area();
+        Diametro();
+        Circunferencia();
+        Volumen();
+    }
 
     public double getResultadoArea() {
         return resultadoArea;
@@ -57,7 +53,4 @@ public class Circunferencia extends CircunferenciayRadio{
     public double getResultadoVolumen() {
         return resultadoVolumen;
     }
-    
-    
-    
 }
